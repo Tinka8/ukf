@@ -15,8 +15,8 @@ if '0' in first_two:
 for i in first_two:
     int_ = int(i)
     summ += int_
-    
-# num of chars removed from string 
+
+# num of chars removed from string
 index += summ
 
 # get first chars based on sum of first 2 digits

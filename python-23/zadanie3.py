@@ -1,27 +1,28 @@
-kapacita = 30
+capacity = 10
 user_input = "20,0,20,5,10,10,5,0"
 
-aaa = user_input.split(",")
+# split user input into array
+array = user_input.split(",")
+input_array = array[::2]
+output_array = array[1::2]
 
+length = len(input_array)
+print(length)
 
-print(aaa)
+print(f"input {input_array}")
+print(f"output {output_array}")
 
-vstup = aaa[::2]
-vystup = aaa[1::2]
-
-print(f"vstup {vstup}")
-print(f"vystup {vystup}")
-
-
-vstup = map(int, vstup)
-vystup = map(int, vystup)
-
-
-time = 0
-
-for i in vstup:
-    time += 1
-    if i > kapacita:
-        print(f"{time} {i - kapacita}")
-        
     
+input_num = 0
+output_num = 0
+
+i = 0
+while i < len(input_array):
+    print(i)
+    print(f"input {input_array[i]}")
+    print(f"output {output_array[i]}")
+        
+    i += 1
+    
+    
+        
