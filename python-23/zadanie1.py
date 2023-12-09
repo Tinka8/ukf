@@ -30,7 +30,6 @@ pin_number += final_result
 new_string = user_input[index:] 
 
 
-
 while len(new_string) > 0: 
     # initiate variables to store values
     summ = 0 

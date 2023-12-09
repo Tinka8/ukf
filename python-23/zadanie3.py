@@ -15,16 +15,21 @@ current = 0
 was_ever_full = False
 
 
+# set hours to 0 
 i = 0
 while i < len(input_array):
 
+    # getting diff each hour
     current_capacity = int(input_array[i]) - int(output_array[i])
+    # counting diff of each hour 
     current += current_capacity
     
+    
     if current > capacity:
+        # print hours and current diff 
         print(i, current - capacity)
         was_ever_full = True
-   
+    
     i += 1
 
 
