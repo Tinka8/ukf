@@ -36,4 +36,5 @@ if (y > 0):
 else:
     print("S" * abs(y), end="")
 
+
 print()
