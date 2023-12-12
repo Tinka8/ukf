@@ -5,7 +5,6 @@
 # Výstup: Dnes je jesenné
 
 
-
 # newlist = [expression for item in iterable if condition == True]
 user_input = input().split()
 
