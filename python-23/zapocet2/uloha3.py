@@ -5,7 +5,7 @@ try:
 except FileNotFoundError:
     print("neexistujúci súbor")
     exit()
-    
+
 
 for line in f:  
     array = line.split()
